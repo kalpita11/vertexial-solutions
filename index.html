@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Vertexial Solutions – A Texas digital solutions agency fixing what's leaking revenue and driving ready-to-convert leads in Austin, Dallas, and Houston.">
+  <title>Vertexial Solutions | Digital Solutions Agency Texas</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+  <!-- Preconnects for speed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-v navbar-expand-lg" id="mainNav">
+    <div class="container">
+      <a class="nav-brand" href="#">
+        <img src="assets/img/logo/vertexial-solutions-logo.png" alt="Vertexial Solutions Logo">
+      </a>
+
+      <!-- Mobile hamburger -->
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="font-size:1.5rem;color:var(--ink);line-height:1"><i class="bi bi-list"
+            id="hamburgerIcon"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+
+          <!-- DESKTOP: Services trigger (hover opens mega) -->
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link services-trigger" href="#services" id="servicesTrigger">
+              Services <i class="bi bi-chevron-down"
+                style="font-size:.6rem;vertical-align:middle;margin-left:.15rem;transition:transform .25s"
+                id="servChevron"></i>
+            </a>
+          </li>
+
+          <!-- MOBILE: Services collapsible -->
+          <li class="nav-item d-lg-none">
+            <a class="nav-link mob-services-toggle" href="#" id="mobServicesToggle">
+              Services <span class="mob-arrow"><i class="bi bi-chevron-down"
+                  style="font-size:.6rem;vertical-align:middle;margin-left:.15rem"></i></span>
+            </a>
+            <div class="mob-services-panel" id="mobServicesPanel">
+              <span class="mob-cat-label">Digital Marketing</span>
+              <div class="mob-sub-group">
+                <h4 class="menu-mob-title-h4"><a href="#">SEO</a></h4>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> AI SEO</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Local SEO</a>
+                <h4 class="menu-mob-title-h4"><a href="#">SEM</a></h4>
+
+                <h4 class="menu-mob-title-h4"><a href="#">SMM</a></h4>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Social Media Management</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Social Media Ads</a>
+              </div>
+              <span class="mob-cat-label">Website Design &amp; Development</span>
+              <div class="mob-sub-group">
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> E-Commerce Development</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Corporate Website</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> App Development</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> UI/UX Design</a>
+              </div>
+              <span class="mob-cat-label">IT Solutions</span>
+              <div class="mob-sub-group">
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Artificial Intelligence</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Chatbot</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> DevOps</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Data Engineering</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Cloud Solutions</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <!-- <li class="nav-item ms-lg-2">
+            <a class="btn-v btn-v-pri" href="#">Get In Touch <i class="bi bi-arrow-right"></i></a>
+          </li> -->
+        </ul>
+        <a class="btn-v btn-v-pri" href="#" data-bs-toggle="modal" data-bs-target="#popupForm">
+          Get In Touch <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- BACKDROP -->
+  <div class="mega-backdrop" id="megaBackdrop"></div>
+  <!-- MEGA MENU -->
+  <div class="mega-menu" id="megaMenu">
+    <div class="mega-inner">
+
+      <!-- RIGHT PANELS WRAPPER -->
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div class="mega-panels">
+
+          <!-- PANEL: Digital Marketing -->
+          <div class="mega-panel active" id="panel-dm">
+            <div class="mega-panel-label">Our Services</div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="digital-marketing.html" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-1.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">Digital Marketing</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <h4><a href="#">SEO</a></h4>
+                  <ul>
+                    <li><a href="#">AI SEO</a></li>
+                    <li><a href="#">Local SEO</a></li>
+                  </ul>
+                  <hr>
+                  <h4><a href="#">SEM</a></h4>
+                  <hr>
+                  <h4><a href="#">SMM</a></h4>
+                  <ul>
+                    <li><a href="#">Social Media Management</a></li>
+                    <li><a href="#">Social Media Ads</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="#" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-2.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">Website Design &amp; Development</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <ul>
+                    <li><a href="#">E-Commerce Development</a></li>
+                    <li><a href="#">Corporate Website</a></li>
+                    <li><a href="#">App Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="#" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-3.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">IT Solutions</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <ul>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Chatbot</a></li>
+                    <li><a href="#">DevOps</a></li>
+                    <li><a href="#">Data Engineering</a></li>
+                    <li><a href="#">Cloud Solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grad"></div>
+    <div class="container position-relative" style="z-index:2;">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <!-- <div class="hero-badge"><span class="dot"></span>Digital Solutions Agency · Texas</div> -->
+          <h1 class="hero-h1">Digital Solutions Agency <br>in Texas Built for <br>Businesses Ready to Compete</h1>
+          <p class="hero-sub">A Texas digital solutions agency fixing what's leaking revenue and driving
+            ready-to-convert leads</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#" class="btn-v btn-v-pri">Start the Conversation That Changes the Direction
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <!-- <a href="#challenges" class="btn-v btn-v-light">Explore Our Work</a> -->
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+
+          <!-- <div class="position-relative">
+
+            <div class="hero-img-card">
+              <img src="assets/img/home/banner-img-one.webp" alt="Texas business team" loading="eager" width="600"
+                height="750">
+            </div>
+            <div class="float-badge tr">
+              <div class="fi" style="background:var(--accent-glow);">
+                <img src="assets/img/icon/banner-icon-2.webp" alt="Top Quality Lead">
+              </div>
+              <div>
+                <div class="fb-title">Top Quality Lead</div>
+              </div>
+            </div>
+            <div class="float-badge bl">
+              <div class="fi" style="background:var(--accent-glow);">
+                <img src="assets/img/icon/banner-icon-1.webp" alt="Top Quality Lead">
+              </div>
+              <div>
+                <div class="fb-title">AI-Powered SEO</div>
+              </div>
+            </div>
+
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">AI SEO <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Local SEO <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Social Media Management <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Social Media Ads <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">E-Commerce Development <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Corporate Website <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">App Development <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">UI/UX Design <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Artificial Intelligence <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Chatbot <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">DevOps <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Data Engineering <img src="assets/img/icon/star.webp" alt="Icon"></span>
+      <span class="ticker-item">Cloud Solutions <img src="assets/img/icon/star.webp" alt="Icon"></span>
+    </div>
+  </div>
+
+
+    <section class="you-are-putting-homepage-custom-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="you-are-putting-homepage-single-sidebar">
+            <div class="you-are-putting-homepage-img-sec">
+              <img src="assets/img/home/your-putting-efforts-img-one.webp" alt="Digital Marketing Image">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="you-are-putting-custom-sec">
+            <h2 class="sec-title">You’re Putting in the Effort. Is it Paying Off?</h2>
+            <p>What if the issue is not how much you are doing, but how little of it is actually moving the needle?
+              Campaigns are running. The website is live. Tools are in place. On paper, the business is active across
+              every front. But revenue growth still feels unpredictable, and the numbers in the reports rarely tell
+              the full story.</p>
+            <p>This is one of the most common inflection points for growing businesses in Texas. Not failure. Not
+              inaction. Just a ceiling that effort alone cannot break through.</p>
+            <p>Vertexial Solutions is a digital solutions agency built for businesses in Austin, Dallas, and Houston
+              that are ready to move past that ceiling. Whether the priority is stronger search visibility, a website
+              that converts with purpose, or technology infrastructure that stops slowing the business down, the work
+              begins with understanding exactly where performance is breaking down.</p>
+            <p>Because the businesses that scale consistently are not the ones doing more. They are the ones doing the
+              right things with the right systems behind them.</p>
+            <h4>Does any of this sound familiar right now?</h4>
+            <ul class="list-style-one">
+              <li>Campaigns are active but tying results back to actual revenue remains difficult</li>
+              <li>Visibility improves, but connecting it to actual revenue or pipeline growth remains difficult.</li>
+              <li>Campaigns generate leads, but cost efficiency and scalability remain inconsistent.</li>
+              <li>Users drop off due to friction, unclear messaging, or weak UX - despite a professional design.</li>
+              <li>Without reliable IT solutions, lead handling and workflows break down at critical moments.</li>
+            </ul>
+            <p>These are not isolated problems. They are signals that somewhere between strategy, execution, and
+              technology, performance is leaking.</p>
+            <div class="rv mt-3">
+              <a href="#" class="btn-v btn-v-pri">Understand What Is Driving Your Growth
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<section class="fx-problem-section sec">-->
+  <!--  <div class="container">-->
+  <!--    <div class="row fx-problem-row">-->
+  <!--      <div class="col-lg-6 fx-problem-left">-->
+  <!--        <div class="fx-problem-image">-->
+  <!--          <img src="assets/img/home/your-putting-efforts-img-one.webp" alt="">-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="col-lg-6 fx-problem-right">-->
+  <!--        <h2 class="sec-title">You’re Putting in the Effort. Is it Paying Off?</h2>-->
+  <!--        <p>What if the issue is not how much you are doing, but how little of it is actually moving the needle?-->
+  <!--          Campaigns are running. The website is live. Tools are in place. On paper, the business is active across-->
+  <!--          every front. But revenue growth still feels unpredictable, and the numbers in the reports rarely tell-->
+  <!--          the full story.</p>-->
+  <!--        <p>This is one of the most common inflection points for growing businesses in Texas. Not failure. Not-->
+  <!--          inaction. Just a ceiling that effort alone cannot break through.</p>-->
+  <!--        <p>Vertexial Solutions is a digital solutions agency built for businesses in Austin, Dallas, and Houston-->
+  <!--          that are ready to move past that ceiling. Whether the priority is stronger search visibility, a website-->
+  <!--          that converts with purpose, or technology infrastructure that stops slowing the business down, the work-->
+  <!--          begins with understanding exactly where performance is breaking down.</p>-->
+  <!--        <p>Because the businesses that scale consistently are not the ones doing more. They are the ones doing the-->
+  <!--          right things with the right systems behind them.</p>-->
+  <!--        <h4>Does any of this sound familiar right now?</h4>-->
+  <!--        <ul class="list-style-one">-->
+  <!--          <li>Campaigns are active but tying results back to actual revenue remains difficult</li>-->
+  <!--          <li>Visibility improves, but connecting it to actual revenue or pipeline growth remains difficult.</li>-->
+  <!--          <li>Campaigns generate leads, but cost efficiency and scalability remain inconsistent.</li>-->
+  <!--          <li>Users drop off due to friction, unclear messaging, or weak UX - despite a professional design.</li>-->
+  <!--          <li>Without reliable IT solutions, lead handling and workflows break down at critical moments.</li>-->
+  <!--        </ul>-->
+  <!--        <p>These are not isolated problems. They are signals that somewhere between strategy, execution, and-->
+  <!--          technology, performance is leaking.</p>-->
+  <!--          <div class="rv mt-3">-->
+  <!--            <a href="#" class="btn-v btn-v-pri">Understand What Is Driving Your Growth-->
+  <!--              <i class="bi bi-arrow-right"></i>-->
+  <!--            </a>-->
+  <!--          </div>-->
+  <!--      </div>-->
+  <!--    </div>     -->
+  <!--  </div>-->
+  <!--  <div class="custom-padding-sec"></div>-->
+  <!--</section>-->
+
+  <!-- <section class="problems-sec sec">
+    <div class="container">
+      <div class="your-putting-efforts-sec-one">
+        <div class="your-putting-efforts-sec-one-content-sec">
+          <h2 class="sec-title">You’re Putting in the Effort. Is it Paying Off?</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="your-putting-efforts-img-one-sec">
+              <img src="assets/img/home/your-putting-efforts-img-one.webp" alt="Analytics dashboard" class="img-fluid"
+                loading="lazy">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="your-putting-efforts-sec-one-content-sec">
+              <p>What if the issue is not how much you are doing, but how little of it is actually moving the needle?
+                Campaigns are running. The website is live. Tools are in place. On paper, the business is active across
+                every front. But revenue growth still feels unpredictable, and the numbers in the reports rarely tell
+                the full story.</p>
+              <p>This is one of the most common inflection points for growing businesses in Texas. Not failure. Not
+                inaction. Just a ceiling that effort alone cannot break through.</p>
+              <p>Vertexial Solutions is a digital solutions agency built for businesses in Austin, Dallas, and Houston
+                that are ready to move past that ceiling. Whether the priority is stronger search visibility, a website
+                that converts with purpose, or technology infrastructure that stops slowing the business down, the work
+                begins with understanding exactly where performance is breaking down.</p>
+              <p>Because the businesses that scale consistently are not the ones doing more. They are the ones doing the
+                right things with the right systems behind them.</p>
+              <p>Does any of this sound familiar right now?</p>
+              <ul class="list-style-one">
+                <li>Campaigns are active but tying results back to actual revenue remains difficult</li>
+                <li>Visibility improves, but connecting it to actual revenue or pipeline growth remains difficult.</li>
+                <li>Campaigns generate leads, but cost efficiency and scalability remain inconsistent.</li>
+                <li>Users drop off due to friction, unclear messaging, or weak UX — despite a professional design.</li>
+                <li>Without reliable IT solutions, lead handling and workflows break down at critical moments.</li>
+              </ul>
+              <p>These are not isolated problems. They are signals that somewhere between strategy, execution, and
+                technology, performance is leaking.</p>
+            </div>
+            <div class="rv mt-3">
+              <a href="#" class="btn-v btn-v-pri">Understand What Is Driving Your Growth
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section> -->
+
+  <section class="where-growth-starts-slipping-main-sec">
+    <div class="container">
+      <div class="where-growth-starts-slipping-one-sec">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="where-growth-starts-slipping-title-sec">
+              <h2 class="sec-title">Where Growth Starts Slipping Without You Noticing</h2>
+              <p>At a glance, everything seems to be moving in the right direction. Campaigns are active, traffic is
+                coming in, and reports show steady progress. But over time, a different picture begins to emerge. Growth
+                feels inconsistent. Results are harder to
+                explain. What once seemed like momentum starts to feel unpredictable.</p>
+              <p>This is usually the point where underlying gaps begin to surface, not because effort is missing, but
+                because the system behind that effort is not fully aligned across marketing, website performance, and
+                backend technology. You might already be noticing a few of these patterns.</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="where-growth-starts-slipping-content-sec">
+              <h4>Are you facing any of these?</h4>
+              <div class="where-growth-starts-custom-listing-sec">
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check wgscl-card-icon"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>More traffic, fewer conversions</h3>
+                    <p>More people are finding your business, yet qualified inquiries do not grow at the same pace</p>
+                  </div>
+                </div>
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check wgscl-card-icon"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>SEO progress, unclear impact</h3>
+                    <p>Visibility improves, but connecting it to actual revenue or pipeline growth remains difficult</p>
+                  </div>
+                </div>
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check wgscl-card-icon"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>Rising ad spend, unstable returns</h3>
+                    <p>Campaigns generate leads, but cost efficiency and scalability remain inconsistent</p>
+                  </div>
+                </div>
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check wgscl-card-icon"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>Good website, low action</h3>
+                    <p>Even with a modern website design and development agency, users drop off due to friction, unclear
+                      messaging, or weak UX</p>
+                  </div>
+                </div>
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check wgscl-card-icon"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>Slow systems, missed opportunities</h3>
+                    <p>Without a reliable IT services and solutions provider, lead handling and workflows often break
+                      down</p>
+                  </div>
+                </div>
+                <div class="wgscl-card-sec" style="visibility: visible;">
+                  <div class="wgscl-card-img-sec">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="wgscl-card-content-sec">
+                    <h3>Competitors moving faster
+                      with AI</h3>
+                    <p>Businesses adopting automation, AI SEO, and smarter targeting begin to outpace traditional
+                      approaches</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="where-growth-starts-slipping-img-sec">
+              <img src="assets/img/home/where-growth-img-one.webp" alt="">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <p>These are not isolated issues. They are early indicators of a system that is active, but not built for
+              consistent, scalable growth. In fast-moving markets like Austin and Dallas, especially for law firms,
+              clinics, and eCommerce brands, these gaps directly impact how effectively you generate and convert
+              demand.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="outcomes-sec sec" id="outcomes">
+    <div class="container">
+      <div class="when-everything-starts-working-sec-one">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="when-everything-starts-working-title-sec">
+              <h2 class="sec-title-one">What Changes When Everything <br>Starts Working Together</h2>
+              <p>When the right systems are in place, growth stops feeling reactive. Decisions become
+                clearer. Performance becomes measurable. Scaling becomes controlled. That is what we build.</p>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 d-flex align-items-end justify-content-lg-end gap-2 mt-4 mt-lg-0">
+            <button class="swiper-nav" id="outPrev" aria-label="Previous"><i class="bi bi-arrow-left"></i></button>
+            <button class="swiper-nav" id="outNext" aria-label="Next"><i class="bi bi-arrow-right"></i></button>
+          </div> -->
+        </div>
+      </div>
+
+
+      <div class="swiper outSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-1.webp" alt="High-Intent Visibility Across Channels">
+              </div>
+              <h4 class="out-title">High-Intent Visibility Across Channels</h4>
+              <p class="out-body">Through SEO, paid media, and local search optimization, your business shows up where
+                decisions are being made.</p>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-2.webp"
+                  alt="Performance Marketing That Connects to Revenue">
+              </div>
+              <h4 class="out-title">Performance Marketing That Connects to Revenue</h4>
+              <p class="out-body">Campaigns are structured with clear attribution, smarter targeting, and ROI-focused
+                execution.</p>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-3.webp" alt="Web Experiences That Actually Convert">
+              </div>
+              <h4 class="out-title">Web Experiences That Actually Convert</h4>
+              <p class="out-body">As a custom website design agency and website development agency, we build platforms
+                that guide users toward action, not just engagement.</p>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-4.webp" alt="Technology That Scales With You">
+              </div>
+              <h4 class="out-title">Technology That Scales With You</h4>
+              <p class="out-body">As an IT solutions company in Texas, we ensure your systems, infrastructure, and
+                integrations support growth, not slow it down.</p>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-5.webp" alt="AI and Automation That Reduce Friction">
+              </div>
+              <h4 class="out-title">AI and Automation That Reduce Friction</h4>
+              <p class="out-body">From chatbots to workflow automation, we improve speed, consistency, and user
+                experience.</p>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="out-slide">
+              <div class="out-icon">
+                <img src="assets/img/icon/what-changes-icon-6.webp" alt="Data That Drives Better Decisions">
+              </div>
+              <h4 class="out-title">Data That Drives Better Decisions</h4>
+              <p class="out-body">With structured tracking and analytics, you gain clarity across marketing, website
+                performance, and operations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination cstm-pag mt-4 position-relative" style="bottom:auto;"></div>
+      </div>
+      <div class="text-center rv when-everything-starts-working-btn-sec">
+        <a href="#" class="btn-v btn-v-light">Build A System That Drives Real Results <i
+            class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="sec-title display-5 rv d1 text-center">Precision Capabilities Designed for Business Impact</h2>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-sm-6 col-lg-4 rv d1">
+          <div class="svc-card">
+            <!--<span class="svc-num">01</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-1.webp" alt="SEO">
+            </div>
+            <h4 class="svc-title">SEO</h4>
+            <p class="svc-body">SEO + AEO that gets you found in high-intent searches and AI answers, bringing in
+              decision-ready traffic that drives real inquiries, not just passive visits.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d2">
+          <div class="svc-card">
+            <!--<span class="svc-num">02</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-2.webp" alt="SEM">
+            </div>
+            <h4 class="svc-title">SEM</h4>
+            <p class="svc-body">Precision-led ad campaigns that cut wasted spend, stabilize cost per lead, and
+              consistently attract prospects who are ready to take action.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d3">
+          <div class="svc-card">
+            <!--<span class="svc-num">03</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-3.webp" alt="SMM">
+            </div>
+            <h4 class="svc-title">SMM</h4>
+            <p class="svc-body">Social strategies built to move beyond likes, turning visibility into trust and
+              engagement into measurable business results.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d4">
+          <div class="svc-card">
+            <!--<span class="svc-num">04</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-4.webp" alt="E-Commerce Development">
+            </div>
+            <h4 class="svc-title">E-Commerce Development</h4>
+            <p class="svc-body">Conversion-focused stores that remove drop-offs, simplify checkout, and turn more
+              visitors into paying, repeat customers.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d1">
+          <div class="svc-card">
+            <!--<span class="svc-num">05</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-5.webp" alt="Corporate Website">
+            </div>
+            <h4 class="svc-title">Corporate Website</h4>
+            <p class="svc-body">Websites designed to build instant credibility, reduce confusion, and guide visitors
+              toward clear, confident decisions.<br><br></p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d2">
+          <div class="svc-card">
+            <!--<span class="svc-num">06</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-6.webp" alt="App Development">
+            </div>
+            <h4 class="svc-title">App Development</h4>
+            <p class="svc-body">Fast, intuitive apps built around real user behavior, improving engagement, retention,
+              and overall customer experience.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d3">
+          <div class="svc-card">
+            <!--<span class="svc-num">07</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-7.webp" alt="UI/UX Design">
+            </div>
+            <h4 class="svc-title">UI/UX Design</h4>
+            <p class="svc-body">Frictionless user journeys that keep visitors engaged longer and make it easier for them
+              to take the next step.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d4">
+          <div class="svc-card">
+            <!--<span class="svc-num">08</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-8.webp" alt="Artificial Intelligence">
+            </div>
+            <h4 class="svc-title">Artificial Intelligence</h4>
+            <p class="svc-body">AI systems that automate repetitive work, improve response time, and help you act faster
+              with better accuracy.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d1">
+          <div class="svc-card">
+            <!--<span class="svc-num">09</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-9.webp" alt="Chatbot">
+            </div>
+            <h4 class="svc-title">Chatbot</h4>
+            <p class="svc-body">Always-on chat that engages instantly, answers queries, and captures qualified leads
+              before they move on.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d2">
+          <div class="svc-card">
+            <!--<span class="svc-num">10</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-10.webp" alt="DevOps">
+            </div>
+            <h4 class="svc-title">DevOps</h4>
+            <p class="svc-body">Reliable, high-speed infrastructure that keeps your systems stable, scalable, and ready
+              for growing demand.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d3">
+          <div class="svc-card">
+            <!--<span class="svc-num">11</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-11.webp" alt="Data Engineering">
+            </div>
+            <h4 class="svc-title">Data Engineering</h4>
+            <p class="svc-body">Clean, structured data pipelines that turn scattered information into insights you can
+              actually use to grow.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 rv d4">
+          <div class="svc-card">
+            <!--<span class="svc-num">12</span>-->
+            <div class="svc-iw">
+              <img src="assets/img/icon/precision-built-icon-12.webp" alt="Cloud Solutions">
+            </div>
+            <h4 class="svc-title">Cloud Solutions</h4>
+            <p class="svc-body">Secure, scalable cloud environments that support performance, flexibility, and
+              uninterrupted business growth.</p>
+            <div class="precision-cap-design-btn-sec">
+              <a href="#" class="arrow-btn-read-more">Know More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="explore-cap-built-for-scale-btn-sec rv"><a href="#" class="btn-v btn-v-pri">Explore Capabilities Built
+          for Scale
+          <i class="bi bi-arrow-right"></i></a></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="diff-sec sec" id="why">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="difference-between-doing-more-title-sec">
+            <h2 class="sec-title">The Difference Between Doing More &amp; Doing It Right</h2>
+            <p>At a certain stage, the question shifts. It is no longer “what service do we need?” It becomes “what
+              actually works?”</p>
+          </div>
+        </div>
+
+
+        <div class="difference-between-final-doing-sec">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="diff-betw-final-doing-img-sec">
+                <img src="assets/img/home/diff-between-card-img.webp" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <div class="diff-betw-final-doing-content-sec">
+
+                <div class="diff-betw-final-doing-card-sec">
+                  <div class="di-be-fi-doing-card-img-sec">
+                    <img src="assets/img/icon/differ-betwe-icon-1.webp" alt="We Fix, Not Add">
+                  </div>
+                  <div class="di-be-fi-doing-card-para-sec">
+                    <h3>We Fix, Not Add</h3>
+                    <p>Most businesses already work with a digital marketing agency Austin or a development partner.
+                      The issue is not absence; it is misalignment</p>
+                  </div>
+                </div>
+
+                <div class="diff-betw-final-doing-card-sec">
+                  <div class="di-be-fi-doing-card-img-sec">
+                    <img src="assets/img/icon/differ-betwe-icon-2.webp" alt="Built for Modern Search">
+                  </div>
+                  <div class="di-be-fi-doing-card-para-sec">
+                    <h3>Built for Modern Search</h3>
+                    <p>With AI SEO, evolving algorithms, and changing user behavior, visibility alone is not enough. We
+                      position your business where intent converts into action</p>
+                  </div>
+                </div>
+
+                <div class="diff-betw-final-doing-card-sec">
+                  <div class="di-be-fi-doing-card-img-sec">
+                    <img src="assets/img/icon/differ-betwe-icon-3.webp" alt="Focused on Real Outcomes">
+                  </div>
+                  <div class="di-be-fi-doing-card-para-sec">
+                    <h3>Focused on Real Outcomes</h3>
+                    <p>Traffic is easy to increase. What matters is lead quality, conversion rates, and cost efficiency.
+                      Every decision is tied to a measurable business impact</p>
+                  </div>
+                </div>
+
+
+                <div class="diff-betw-final-doing-card-sec">
+                  <div class="di-be-fi-doing-card-img-sec">
+                    <img src="assets/img/icon/differ-betwe-icon-4.webp" alt="Strategies Built for Your Industry">
+                  </div>
+                  <div class="di-be-fi-doing-card-para-sec">
+                    <h3>Strategies Built for Your Industry</h3>
+                    <p>A law firm, a dental practice, and an eCommerce brand do not grow the same way. We design
+                      strategies based on how your industry actually generates revenue</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-12">
+          <div class="difference-between-doing-more-content-sec">
+            <div class="row">
+
+              <div class="col-md-6 col-sm-6">
+                <div class="res-single-services">
+                  <img src="assets/img/home/differ-betw-img-1.webp" alt="Image" class="img-responsive">
+                  <div class="services-content">
+                    <h3>We Fix, Not Add</h3>
+                    <p>Most businesses already work with a digital marketing agency Austin or a development partner. The
+                      issue is not absence; it is misalignment</p>
+                    <span><img src="assets/img/icon/differ-betwe-icon-1.webp" alt="We Fix, Not Add"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="res-single-services">
+                  <img src="assets/img/home/differ-betw-img-2.webp" alt="Image" class="img-responsive">
+                  <div class="services-content">
+                    <h3>Built for Modern Search</h3>
+                    <p>With AI SEO, evolving algorithms, and changing user behavior, visibility alone is not enough. We
+                      position your business where intent converts into action</p>
+                    <span><img src="assets/img/icon/differ-betwe-icon-2.webp" alt="Built for Modern Search"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="res-single-services">
+                  <img src="assets/img/home/differ-betw-img-3.webp" alt="Image" class="img-responsive">
+                  <div class="services-content">
+                    <h3>Focused on Real Outcomes</h3>
+                    <p>Traffic is easy to increase. What matters is lead quality, conversion rates, and cost efficiency.
+                      Every decision is tied to a measurable business impact</p>
+                    <span><img src="assets/img/icon/differ-betwe-icon-3.webp" alt="Focused on Real Outcomes"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="res-single-services">
+                  <img src="assets/img/home/differ-betw-img-4.webp" alt="Image" class="img-responsive">
+                  <div class="services-content">
+                    <h3>Strategies Built for Your Industry</h3>
+                    <p>A law firm, a dental practice, and an eCommerce brand do not grow the same way. We design
+                      strategies based on how your industry actually generates revenue</p>
+                    <span><img src="assets/img/icon/differ-betwe-icon-4.webp"
+                        alt="Strategies Built for Your Industry"></span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div> -->
+
+        <div class="col-lg-12">
+          <div class="rv d5 text-center">
+            <a href="#" class="btn-v btn-v-pri">Choose A Partner That Drives Real Results
+              <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="fw-sec sec" id="framework">
+    <div class="container position-relative" style="z-index:1;">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="how-it-work-vertex-framework-title-sec">
+            <h2 class="sec-title-one">How It Works - The VERTEX Framework</h2>
+            <p>Growth becomes sustainable when it is built on structure, not constant
+              experimentation.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-1.webp" alt="Validate the Current Reality">
+            </div>
+            <div class="step-icon">01</div>
+            <!-- <div class="step-label">V – Validate</div> -->
+            <h4 class="step-title">Validate the Current Reality</h4>
+            <p class="step-body">We assess performance across marketing, website, and systems to identify gaps and
+              missed opportunities.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d2">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-2.webp" alt="Engineer the Right System">
+            </div>
+            <div class="step-icon">
+              02
+            </div>
+            <!-- <div class="step-label">E – Engineer</div> -->
+            <h4 class="step-title">Engineer the Right System</h4>
+            <p class="step-body">We align digital marketing, UX, and technology into a unified, scalable framework</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d3">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-3.webp" alt="Refine for Performance">
+            </div>
+            <div class="step-icon">
+              03
+            </div>
+            <!-- <div class="step-label">R – Refine</div> -->
+            <h4 class="step-title">Refine for Performance</h4>
+            <p class="step-body">Continuous optimization improves efficiency, engagement, and conversions</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-4.webp" alt="Track What Actually Drives Growth">
+            </div>
+            <div class="step-icon">
+              04
+            </div>
+            <!-- <div class="step-label">T – Track</div> -->
+            <h4 class="step-title">Track What Actually Drives Growth</h4>
+            <p class="step-body">We focus on data that connects directly to revenue, not vanity metrics</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d2">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-5.webp" alt="Expand What Works">
+            </div>
+            <div class="step-icon">
+              05
+            </div>
+            <!-- <div class="step-label">E – Expand</div> -->
+            <h4 class="step-title">Expand What Works</h4>
+            <p class="step-body">Proven strategies are scaled across channels, audiences, and markets</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d3">
+          <div class="step-card">
+            <div class="step-letter">
+              <img src="assets/img/icon/how-it-work-icon-6.webp" alt="Execute with Precision and Adaptability">
+            </div>
+            <div class="step-icon">
+              06
+            </div>
+            <!-- <div class="step-label">X – eXecute</div> -->
+            <h4 class="step-title">Execute with Precision and Adaptability</h4>
+            <p class="step-body">Execution is not just consistency. It is the ability to adapt quickly to algorithm
+              shifts, user behavior changes, and market dynamics while maintaining performance stability</p>
+          </div>
+        </div>
+      </div>
+      <div class="how-it-works-btn-sec rv"><a href="#" class="btn-v btn-v-light">Start Building Your Growth System
+          Today <i class="bi bi-arrow-right"></i></a></div>
+    </div>
+  </section>
+
+  <section class="texas-market-custom-main-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="texas-market-content-title-sec">
+            <h2 class="sec-title">Built for Businesses Competing in Texas Markets</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="texas-market-img-sec">
+            <img src="assets/img/home/texas-market-img-one.webp" class="img-fluid"
+              alt="Built for Businesses Competing in Texas Markets Image">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="texas-market-content-sec">
+            <p>Texas does not reward average execution. In cities like Austin, Dallas, and Houston, businesses compete
+              in environments where speed, clarity, and digital presence directly influence outcomes.</p>
+            <p>Customers do not browse slowly. They compare quickly, evaluate credibility instantly, and make
+              decisions based on what feels clear and trustworthy.</p>
+            <p>A dental clinic in Austin is no longer competing only on location, but on search visibility and patient
+              experience. A law firm in Houston competes on how effectively it captures high-intent demand at the
+              right moment.</p>
+            <p>As a Texas digital marketing agency and IT solutions provider, we build systems that reflect how
+              businesses operate today, connected, data-driven, and increasingly powered by AI and automation.</p>
+            <p>Because in these markets, it is not just about being visible. It is about being chosen.</p>
+          </div>
+          <div class="mt-4 rv d5 in">
+            <a href="#" class="btn-v btn-v-pri">Choose A Partner That Drives Real Results
+              <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="texas-sec sec" id="texas">
+    <div class="container texas-inner">
+      <div class="row gy-5 align-items-center">
+        <div class="col-lg-7">
+          <div class="built-for-businesses-competing-content-sec">
+            <h2 class="sec-title-three">If Growth Still Feels Inconsistent, There Is a Reason</h2>
+            <p>At a certain stage, more effort does not solve the problem. Better systems do.
+              If your marketing, website, and technology are not delivering predictable, measurable results, the issue
+              is not activity. It is alignment.</p>
+            <p>Vertexial Solutions is a digital solutions agency in Texas working with businesses that are past the
+              starting line but not yet seeing returns that match the investment. Whether the gap lives in SEO and paid
+              media, in web design, or in IT systems and cloud infrastructure, the work begins with identifying exactly
+              where performance is breaking down.</p>
+            <p>Because once the right structure is in place, growth stops feeling uncertain and starts becoming
+              repeatable.</p>
+            <div class="rv d4"><a href="#" class="btn-v btn-v-light">Book Your Strategy Session and Gain Clarity
+                <i class="bi bi-arrow-right"></i></a></div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="row g-3">
+            <div class="col-12">
+              <div class="tx-img"><img src="assets/img/home/built-for-businesses-competing-img.webp" alt="Texas skyline"
+                  loading="lazy"></div>
+            </div>
+            <!-- <div class="col-4">
+              <div class="tx-stat text-center">
+                <div class="tx-stat-num">3+</div>
+                <div class="tx-stat-lbl">Markets</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tx-stat text-center">
+                <div class="tx-stat-num">12+</div>
+                <div class="tx-stat-lbl">Services</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tx-stat text-center">
+                <div class="tx-stat-num">AI</div>
+                <div class="tx-stat-lbl">Powered</div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="faq-sec sec position-relative overflow-hidden" id="faq">
+    <div class="container position-relative z-2">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="sec-title display-5 rv d1 text-center">
+            Frequently Asked Questions
+          </h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+
+          <div class="accordion acc-modern" id="faqL">
+
+            <!-- ITEM 1 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1"
+                  aria-controls="f1">
+                  What does a digital marketing agency in Texas actually do for business growth?
+                </button>
+              </h3>
+              <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A digital marketing agency in Texas is responsible for building a system that consistently
+                    generates and converts demand. At Vertexial Solutions, the focus goes beyond visibility to ensure
+                    every channel contributes to measurable revenue outcomes.</p>
+                  <ul>
+                    <li>Aligns SEO, paid ads, and content with actual buying intent, not just traffic generation</li>
+                    <li>Builds conversion paths that turn visitors into qualified leads and paying customers</li>
+                    <li>Tracks performance across channels to identify what drives revenue and where to scale</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2"
+                  aria-controls="f2">
+                  How do I choose the right digital marketing agency in Austin for my business?
+                </button>
+              </h3>
+              <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Choosing the right Austin digital marketing agency depends on their ability to deliver clarity,
+                    consistency, and measurable outcomes. Vertexial Solutions focuses on performance visibility and
+                    scalable strategies tailored to your industry.</p>
+                  <ul>
+                    <li>Prioritizes agencies that connect marketing efforts directly to revenue, not vanity metrics</li>
+                    <li>Looks for transparent reporting with clear attribution across SEO, ads, and conversions</li>
+                    <li>Ensures the agency understands your industry-specific buying journey and demand cycles</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3"
+                  aria-controls="f3">
+                  How long does SEO take to show results for Texas businesses?
+                </button>
+              </h3>
+              <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>SEO is a long-term growth driver, but early signals can appear within a few months when executed
+                    correctly. Vertexial Solutions integrates SEO with AEO to improve both search rankings and AI-driven
+                    answer visibility.</p>
+                  <ul>
+                    <li>Initial improvements in indexing, rankings, and traffic typically appear within 3–6 months</li>
+                    <li>Stronger gains come from technical optimization, content depth, and authority building</li>
+                    <li>Long-term impact includes consistent inbound leads and reduced dependency on paid ads</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4"
+                  aria-controls="f4">
+                  Is Google Ads worth it for small and mid-sized businesses in Texas?
+                </button>
+              </h3>
+              <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Google Ads can deliver immediate results, but only when campaigns are structured with precision.
+                    Vertexial Solutions focuses on efficiency and intent to ensure ad spend translates into meaningful
+                    business outcomes.</p>
+                  <ul>
+                    <li>Targets high-intent keywords and audiences that are more likely to convert into leads</li>
+                    <li>Uses conversion tracking and bidding strategies to control cost per acquisition</li>
+                    <li>Continuously optimizes campaigns to improve lead quality and scalability over time</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5"
+                  aria-controls="f5">
+                  Why is my website not converting visitors into leads?
+                </button>
+              </h3>
+              <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A website that attracts traffic but fails to convert usually has gaps in messaging, UX, or
+                    trust-building elements. Vertexial Solutions identifies and fixes these gaps to improve conversion
+                    performance.</p>
+                  <ul>
+                    <li>Clarifies value propositions and messaging so users immediately understand what you offer</li>
+                    <li>Removes friction in navigation, forms, and user journeys that cause drop-offs</li>
+                    <li>Strengthens credibility through design, structure, and conversion-focused elements</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 6 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6"
+                  aria-controls="f6">
+                  What makes a professional website design agency different from basic designers?
+                </button>
+              </h3>
+              <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A professional website design agency focuses on how the website performs, not just how it looks.
+                    Vertexial Solutions builds websites that combine design, speed, and strategy to drive measurable
+                    outcomes.</p>
+                  <ul>
+                    <li>Designs layouts that guide users toward specific actions like inquiries or purchases</li>
+                    <li>Ensures mobile responsiveness, fast loading speeds, and SEO-ready architecture</li>
+                    <li>Integrates conversion elements that improve engagement and reduce bounce rates</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 7 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f7"
+                  aria-controls="f7">
+                  Do I need a custom website development agency or a template-based solution?
+                </button>
+              </h3>
+              <div id="f7" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Template-based websites can work initially, but they often limit scalability and performance.
+                    Vertexial Solutions builds custom platforms designed to support long-term growth and flexibility.
+                  </p>
+                  <ul>
+                    <li>Provides tailored functionality aligned with your business model and user needs</li>
+                    <li>Improves performance, security, and scalability compared to generic templates</li>
+                    <li>Enables easier integration with marketing tools, CRMs, and analytics systems</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 8 (FIXED) -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f8"
+                  aria-controls="f8">
+                  What IT solutions does a business need to support digital growth?
+                </button>
+              </h3>
+              <div id="f8" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>As businesses grow, their technology needs to support increased demand, data, and automation.
+                    Vertexial Solutions provides IT solutions in Texas that ensure systems remain reliable and scalable.
+                  </p>
+                  <ul>
+                    <li>Builds stable infrastructure that can handle higher traffic, data, and user activity</li>
+                    <li>Integrates tools and platforms to create seamless workflows across departments</li>
+                    <li>Reduces operational delays by automating repetitive processes and improving efficiency</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 9 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f9"
+                  aria-controls="f9">
+                  How can AI improve digital marketing and business operations?
+                </button>
+              </h3>
+              <div id="f9" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>AI enhances both marketing performance and operational efficiency by reducing manual effort and
+                    improving decision-making. Vertexial Solutions applies AI where it directly impacts speed and
+                    accuracy.</p>
+                  <ul>
+                    <li>Automates repetitive tasks like lead qualification, responses, and data processing</li>
+                    <li>Improves targeting and personalization based on user behavior and predictive insights</li>
+                    <li>Enables faster decision-making with real-time data analysis and performance tracking</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 10 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f10"
+                  aria-controls="f10">
+                  What is the role of data engineering in marketing and IT systems?
+                </button>
+              </h3>
+              <div id="f10" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Data engineering ensures your data is structured, reliable, and usable for decision-making.
+                    Vertexial Solutions builds systems that turn fragmented data into actionable insights.</p>
+                  <ul>
+                    <li>Creates centralized data pipelines that unify information from multiple platforms</li>
+                    <li>Ensures accuracy and consistency for reporting, analytics, and forecasting</li>
+                    <li>Enables deeper insights that guide marketing strategy and business decisions</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 11 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f11"
+                  aria-controls="f11">
+                  Why are cloud solutions important for growing businesses?
+                </button>
+              </h3>
+              <div id="f11" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Cloud solutions provide the flexibility and scalability needed to support business growth.
+                    Vertexial Solutions delivers cloud infrastructure that adapts as your demand increases.</p>
+                  <ul>
+                    <li>Allows systems to scale without performance issues during high traffic or usage</li>
+                    <li>Enhances data security, backup, and disaster recovery capabilities</li>
+                    <li>Supports remote access, collaboration, and operational efficiency across teams</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 12 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f12"
+                  aria-controls="f12">
+                  What is a full-service digital marketing agency and do I need one?
+                </button>
+              </h3>
+              <div id="f12" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A full-service digital marketing agency manages all aspects of your digital presence under one
+                    strategy. Vertexial Solutions ensures every channel works together instead of operating in silos.
+                  </p>
+                  <ul>
+                    <li>Aligns SEO, paid ads, websites, and analytics into one cohesive growth system</li>
+                    <li>Reduces inefficiencies caused by multiple disconnected vendors or strategies</li>
+                    <li>Improves overall performance by focusing on how channels contribute to revenue</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-bg"></div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-3">
+          <div class="f-brand mb-3">
+            <img src="assets/img/logo/vertexial-solutions-white-logo.webp" alt="Vertexial Solutions Logo">
+          </div>
+          <div class="footer-social-media-sec">
+            <a href="#" target="_blank" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#" target="_blank" aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="#" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="f-link-custom-para">
+            <div class="f-col-title">Quick Links</div>
+            <p><a href="./" class="f-link">Home</a></p>
+            <p><a href="about-us.html" class="f-link">About Us</a></p>
+            <!-- <a href="#" class="f-link">Services</a> -->
+            <p><a href="#" class="f-link">Contact Us</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="f-link-custom-para">
+            <div class="f-col-title">Services</div>
+            <p><a href="digital-marketing.html" class="f-link">Digital Marketing</a></p>
+            <p><a href="#" class="f-link">Website Design & Development</a></p>
+            <p><a href="#" class="f-link">IT Solutions</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="f-col-title">Contact Us</div>
+          <div class="footer-contact-us-icon-content-sec">
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <a href="#" target="_blank" class="f-link">
+                6905 Moss Rose Cv, Austin, TX 78750
+              </a>
+            </div>
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+15122965050" class="f-link">
+                (512) 296-5050
+              </a>
+            </div>
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@vertexialsolutions.com" class="f-link">
+                info@vertexialsolutions.com
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr class="f-divider">
+      <div class="home-copyright-custom-sec">
+        <span>Copyright © 2026 Vertexial Solutions. All rights reserved. Designed By <a
+            href="https://www.matrixbricks.com/" target="_blank">Matrix Bricks</a></span>
+        <div class="home-copyright-custom-pp-tac-sec">
+          <a href="#" class="f-link" style="display:inline;">Privacy Policy</a>
+          <a href="#" class="f-link" style="display:inline;">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade verti-solu-modal-form-sp-sec" id="popupForm" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">Enquiry form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <form>
+
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Enter Name">
+            </div>
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" placeholder="Enter Phone Number">
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select">
+                <option value="">Select Services</option>
+                <option>SEO</option>
+                <option>SEM</option>
+                <option>SMM</option>
+                <option>E-Commerce Development</option>
+                <option>Corporate Website</option>
+                <option>App Development</option>
+                <option>UI/UX Design</option>
+                <option>Artificial Intelligence</option>
+                <option>Chatbot</option>
+                <option>DevOps</option>
+                <option>Data Engineering</option>
+                <option>Cloud Solutions</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <textarea class="form-control" rows="3" placeholder="Enter Message"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn-v btn-v-pri">
+                Submit
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
