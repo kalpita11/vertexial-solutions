@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description"
+    content="Vertexial Solutions – A Texas digital solutions agency fixing what's leaking revenue and driving ready-to-convert leads in Austin, Dallas, and Houston.">
+  <title>Vertexial Solutions | Digital Solutions Agency Texas</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+  <!-- Preconnects for speed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-v navbar-expand-lg" id="mainNav">
+    <div class="container">
+      <a class="nav-brand" href="#">
+        <img src="assets/img/logo/vertexial-solutions-logo.png" alt="Vertexial Solutions Logo">
+      </a>
+      <!-- Mobile hamburger -->
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="font-size:1.5rem;color:var(--ink);line-height:1"><i class="bi bi-list"
+            id="hamburgerIcon"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto me-auto">
+          <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link services-trigger" href="#services" id="servicesTrigger">
+              Services <i class="bi bi-chevron-down"
+                style="font-size:.6rem;vertical-align:middle;margin-left:.15rem;transition:transform .25s"
+                id="servChevron"></i>
+            </a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a class="nav-link mob-services-toggle" href="#" id="mobServicesToggle">
+              Services <span class="mob-arrow"><i class="bi bi-chevron-down"
+                  style="font-size:.6rem;vertical-align:middle;margin-left:.15rem"></i></span>
+            </a>
+            <div class="mob-services-panel" id="mobServicesPanel">
+              <span class="mob-cat-label">Digital Marketing</span>
+              <div class="mob-sub-group">
+                <h4 class="menu-mob-title-h4"><a href="#">SEO</a></h4>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> AI SEO</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Local SEO</a>
+                <h4 class="menu-mob-title-h4"><a href="#">SEM</a></h4>
+
+                <h4 class="menu-mob-title-h4"><a href="#">SMM</a></h4>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Social Media Management</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Social Media Ads</a>
+              </div>
+              <span class="mob-cat-label">Website Design &amp; Development</span>
+              <div class="mob-sub-group">
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> E-Commerce Development</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Corporate Website</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> App Development</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> UI/UX Design</a>
+              </div>
+              <span class="mob-cat-label">IT Solutions</span>
+              <div class="mob-sub-group">
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Artificial Intelligence</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Chatbot</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> DevOps</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Data Engineering</a>
+                <a class="mob-svc-link" href="#"><i class="fa-solid fa-angles-right"></i> Cloud Solutions</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+          <!-- <li class="nav-item ms-lg-2">
+            <a class="btn-v btn-v-pri" href="#">Get In Touch <i class="bi bi-arrow-right"></i></a>
+          </li> -->
+        </ul>
+        <a class="btn-v btn-v-pri" href="#" data-bs-toggle="modal" data-bs-target="#popupForm">
+          Get In Touch <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- BACKDROP -->
+  <div class="mega-backdrop" id="megaBackdrop"></div>
+  <div class="mega-menu" id="megaMenu">
+    <div class="mega-inner">
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div class="mega-panels">
+          <div class="mega-panel active" id="panel-dm">
+            <div class="mega-panel-label">Our Services</div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="#" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-1.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">Digital Marketing</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <h4><a href="#">SEO</a></h4>
+                  <ul>
+                    <li><a href="#">AI SEO</a></li>
+                    <li><a href="#">Local SEO</a></li>
+                  </ul>
+                  <hr>
+                  <h4><a href="#">SEM</a></h4>
+                  <hr>
+                  <h4><a href="#">SMM</a></h4>
+                  <ul>
+                    <li><a href="#">Social Media Management</a></li>
+                    <li><a href="#">Social Media Ads</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="#" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-2.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">Website Design &amp; Development</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <ul>
+                    <li><a href="#">E-Commerce Development</a></li>
+                    <li><a href="#">Corporate Website</a></li>
+                    <li><a href="#">App Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="mega-grid mega-grid-custom-dd-one">
+                  <a href="#" class="m-card featured">
+                    <div class="m-card-ico"><span class="ico">
+                        <img src="assets/img/icon/menu-icon-3.png">
+                      </span></div>
+                    <div class="m-card-body">
+                      <div class="m-card-title">IT Solutions</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mega-menu-custom-submenu-sec">
+                  <ul>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Chatbot</a></li>
+                    <li><a href="#">DevOps</a></li>
+                    <li><a href="#">Data Engineering</a></li>
+                    <li><a href="#">Cloud Solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb">
+    <div class="container">
+      <h1 class="breadcrumb-title">More Than What We Do, It's How We Think</h1>
+      <h2 class="breadcrumb-sub-title">Most agencies will tell you what they offer. We would rather show you how we see
+        the problem differently.</h2>
+      <ul class="breadcrumb-nav">
+        <li><a href="./">Home</a></li>
+        <li><span class="separator"><i class="fa-solid fa-angles-right"></i></span></li>
+        <li>About Us</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about-us-started-simple-realization-sec">
+    <div class="container">
+      <div class="about-us-started-simple-realization-title-sec">
+        <h2 class="sec-title">It Started with a Simple Realization</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="about-us-started-simple-realization-img-sec">
+            <div class="collage-wrapper">
+              <div class="collage-img collage-img--back">
+                <img src="assets/img/home/626326232.png" alt="Building">
+              </div>
+              <div class="collage-img collage-img--front">
+                <img src="assets/img/home/banner-img-one.webp" alt="Workers">
+              </div>
+            </div>
+            <div class="lets-together-circle">
+              <div class="lets-together-img-sec">
+                <img src="assets/img/logo/vertexial-solutions-white-logo-symbol.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="about-us-started-simple-realization-content-sec">
+            <p>Somewhere around the fifth or sixth conversation with a business that was already doing everything right
+              on paper, a pattern became impossible to ignore.</p>
+            <p>Campaigns were active. Websites were live. Reports were being reviewed. Budgets were being spent. And yet
+              the people running these businesses still could not answer one basic question with any confidence.</p>
+            <p>What is actually working?</p>
+            <p>Not which tool was running. Not which platform had the most impressions. But what was genuinely moving
+              revenue, and what was quietly draining it.</p>
+            <p>That question kept coming up across industries, across business sizes, across cities. A clinic owner in
+              Austin who could not explain why bookings had plateaued. A B2B founder in Dallas watching a healthy
+              traffic number sit completely disconnected from pipeline growth. An eCommerce brand in Houston running ads
+              and a website that had never once been built to work together.</p>
+            <p>The effort was real in every case. The clarity was not.</p>
+            <p>That is the problem Vertexial Solutions was built to solve. Not by doing more, but by bringing structure
+              to what is already happening so that effort finally starts translating into outcomes that make sense.</p>
+          </div>
+          <div class="rv mt-3 in">
+            <a href="#" class="btn-v btn-v-pri">Get to Know How We Work
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us-core-values-custom-sec">
+    <div class="container">
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-12 col-lg-12">
+          <div class="ypes-sound-familier-para-sec text-center">
+            <h2 class="sec-title">We Take Our Core Values Seriously <br>Because They Shape Every Outcome</h2>
+            <p>Results are not just a product of strategy. They are a product of how consistently and honestly the work
+              gets done. The CREATE framework is not a set of statements we put on a slide. It is how Vertexial
+              Solutions stays accountable to the businesses, even when the conversation is difficult.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-1.webp" alt="Clarity First">
+            </div>
+            <h4 class="about-core-values-title">Clarity First</h4>
+            <p class="about-core-values-body">Every engagement starts with making sure you know exactly what is
+              happening, what the data is actually saying, and what the priority should be. Assumptions are the first
+              thing we remove.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-2.webp" alt="Real Conversations">
+            </div>
+            <h4 class="about-core-values-title">Real Conversations</h4>
+            <p class="about-core-values-body">If a strategy is not performing, we say it directly and early, not buried
+              in a report three months later. Honesty at the right moment saves time, budget, and trust.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-3.webp" alt="Earned Trust">
+            </div>
+            <h4 class="about-core-values-title">Earned Trust</h4>
+            <p class="about-core-values-body">We do not ask for trust upfront. We build it through what we deliver, how
+              we communicate, and whether what we said would happen actually happens.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-4.webp" alt="Adaptability">
+            </div>
+            <h4 class="about-core-values-title">Adaptability</h4>
+            <p class="about-core-values-body">Search behavior changes. Algorithms shift. User expectations evolve.
+              Strategies that do not move with these changes quietly lose ground. We adjust before it becomes a problem.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-5.webp" alt="Thoughtful Execution">
+            </div>
+            <h4 class="about-core-values-title">Thoughtful Execution</h4>
+            <p class="about-core-values-body">Every action is tied to a specific outcome. If we cannot explain why
+              something is being done and what it is expected to produce, we do not do it.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 rv d1">
+          <div class="about-core-values-card">
+            <div class="about-core-values-num">
+              <img src="assets/img/icon/core-values-icon-6.webp" alt="Enduring Impact">
+            </div>
+            <h4 class="about-core-values-title">Enduring Impact</h4>
+            <p class="about-core-values-body">Short-term spikes are easy to manufacture. We are not interested in those.
+              The work we do is built to perform consistently, not just look good in the first report.</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-12">
+          <div class="rv mt-3 in text-center">
+            <a href="#" class="btn-v btn-v-pri">Work With a Team That Values What Matters
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-vision-mission-custom-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="about-vision-mission-title-sec">
+            <h2 class="sec-title">Our Direction Is Clear, and So Is What We Stand For</h2>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="our-vision-mission-card-sec">
+            <div class="vision-mission-img-sec">
+              <img src="assets/img/icon/mission-icon.webp" alt="Our Mission">
+            </div>
+            <div class="vision-mission-content-sec">
+              <h4>Our Mission</h4>
+              <p>Growth should not feel like guesswork. Our mission is to bring enough structure and clarity to how
+                businesses operate digitally that the path forward stops feeling uncertain and starts feeling
+                deliberate.</p>
+              <p>Every business we work with should be able to look at their performance and understand exactly what is
+                driving it, what is holding it back, and what to do next.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="our-vision-mission-card-sec our-vision-mission-card-sec-two-bg">
+            <div class="vision-mission-img-sec">
+              <img src="assets/img/icon/vision-icon.webp" alt="Our Vision">
+            </div>
+            <div class="vision-mission-content-sec">
+              <h4>Our Vision</h4>
+              <p>We believe the businesses that will lead their markets over the next decade are not necessarily the
+                ones with the biggest budgets. They are the ones operating with the clearest systems, the sharpest data,
+                and the ability to move faster than their competition without losing consistency.</p>
+              <p>That is the standard we are building toward, for every business we work with.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-more-considered-custom-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <div class="about-more-considered-custom-title-sec">
+            <h2 class="sec-title-one">A More Considered Way to Move Forward</h2>
+            <p>Most businesses that reach out to us are not starting from zero. They have already invested. They already
+              have momentum. What they are missing is not more activity. It is a clearer read on where that activity is
+              actually leading.</p>
+            <p>That is a different kind of problem, and it requires a different kind of partner.</p>
+            <p>At Vertexial Solutions, we do not come in with a pre-packaged solution. We start by understanding your
+              specific situation, where performance is strong, where it is leaking, and what the actual priority should
+              be before anything else is decided.</p>
+            <p>When clarity comes in, growth stops feeling like something that happens to you and starts feeling like
+              something you are actually directing.</p>
+            <p>If that is the shift you have been looking for, this is a good place to start.</p>
+          </div>
+          <div class="about-more-considered-custom-btn-sec rv in">
+            <a href="#" class="btn-v btn-v-light">
+              Start a Conversation That Feels Different <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="our-process-list">
+            <div class="our-process-item">
+              <div class="icon-box">
+                <figure>
+                  <img src="assets/img/icon/about-more-considered-icon-1.webp" alt="">
+                </figure>
+              </div>
+              <div class="process-item-content">
+                <h3>We focus on what genuinely moves the needle</h3>
+                <p>Not activity for the sake of reporting. Every decision is tied to a specific outcome that matters to
+                  your business.</p>
+              </div>
+            </div>
+            <div class="our-process-item">
+              <div class="icon-box">
+                <figure>
+                  <img src="assets/img/icon/about-more-considered-icon-2.webp" alt="">
+                </figure>
+              </div>
+              <div class="process-item-content">
+                <h3>We say what needs to be said</h3>
+                <p>If something is not working, you will hear it from us before it becomes a bigger problem. That is not
+                  a sales pitch. It is just how we work.</p>
+              </div>
+            </div>
+            <div class="our-process-item">
+              <div class="icon-box">
+                <figure>
+                  <img src="assets/img/icon/about-more-considered-icon-3.webp" alt="">
+                </figure>
+              </div>
+              <div class="process-item-content">
+                <h3>We build for the long term</h3>
+                <p>Quick wins are fine when they exist. But the goal is always a system that performs consistently,
+                  adapts when it needs to, and does not require constant firefighting to maintain.</p>
+              </div>
+            </div>
+            <div class="our-process-item">
+              <div class="icon-box">
+                <figure>
+                  <img src="assets/img/icon/about-more-considered-icon-4.webp" alt="">
+                </figure>
+              </div>
+              <div class="process-item-content">
+                <h3>We treat your business like it matters</h3>
+                <p>Because it does. The decisions we help shape affect real revenue, real teams, and real outcomes. We
+                  do not forget that.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="faq-sec sec position-relative overflow-hidden">
+    <div class="container position-relative z-2">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="sec-title display-5 rv d1 text-center">
+            Frequently Asked Questions
+          </h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="accordion acc-modern" id="faqL">
+
+            <!-- ITEM 1 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1"
+                  aria-controls="f1">
+                  What services do you offer to support business growth online?
+                </button>
+              </h3>
+              <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Businesses today benefit most when their marketing, technology, and digital presence work together.
+                    At Vertexial Solutions, we provide a combined approach that supports visibility, performance, and
+                    long-term scalability.</p>
+                  <ul>
+                    <li>Digital marketing to drive visibility, leads, and customer acquisition</li>
+                    <li>Website design and development focused on user experience and conversions</li>
+                    <li>IT solutions that strengthen systems, efficiency, and scalability</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2"
+                  aria-controls="f2">
+                  Do you provide both website development and digital marketing services?
+                </button>
+              </h3>
+              <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Yes, having both under one roof allows for better alignment and stronger results. We ensure that
+                    your website and marketing efforts complement each other, which is a key part of how Vertexial
+                    Solutions delivers consistent performance.</p>
+                  <ul>
+                    <li>Websites built to support marketing and user journeys</li>
+                    <li>Marketing strategies aligned with website goals and functionality</li>
+                    <li>A unified approach that avoids gaps between execution and performance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3"
+                  aria-controls="f3">
+                  Can you design a website that is optimized for performance and growth?
+                </button>
+              </h3>
+              <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A well-designed website should not only look good but also support business objectives. We focus on
+                    creating websites that are built for usability, speed, and scalability, which reflects the approach
+                    followed at Vertexial Solutions.</p>
+                  <ul>
+                    <li>Custom designs tailored to your brand and audience</li>
+                    <li>Optimized performance for faster load times and better engagement</li>
+                    <li>Scalable structure that grows with your business</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4"
+                  aria-controls="f4">
+                  What types of businesses do you typically work with?
+                </button>
+              </h3>
+              <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>We work with a wide range of businesses, adapting strategies and solutions based on their goals and
+                    stage of growth. This flexibility is part of how Vertexial Solutions supports different industries
+                    effectively.</p>
+                  <ul>
+                    <li>Startups looking to establish a strong digital foundation</li>
+                    <li>Growing businesses aiming to scale their online presence</li>
+                    <li>Established companies seeking structured and consistent performance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5"
+                  aria-controls="f5">
+                  Do you offer customized solutions or predefined packages?
+                </button>
+              </h3>
+              <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Every business has unique goals, so flexibility is essential. We focus on understanding your
+                    requirements and building solutions accordingly, which is central to how Vertexial Solutions
+                    approaches every project.</p>
+                  <ul>
+                    <li>Tailored strategies based on your business objectives</li>
+                    <li>Flexible service combinations across marketing, IT, and development</li>
+                    <li>Solutions designed to adapt as your business evolves</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 6 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6"
+                  aria-controls="f6">
+                  How do you ensure consistent performance across services?
+                </button>
+              </h3>
+              <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Consistency comes from alignment and ongoing optimization. We make sure that all elements,
+                    marketing, website, and technology work together smoothly, which is a core principle at Vertexial
+                    Solutions.</p>
+                  <ul>
+                    <li>Continuous monitoring and improvement across all services</li>
+                    <li>Alignment between user experience, campaigns, and systems</li>
+                    <li>Data-driven adjustments to maintain steady performance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 7 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f7"
+                  aria-controls="f7">
+                  What role do IT solutions play in digital growth?
+                </button>
+              </h3>
+              <div id="f7" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Strong technology foundations help businesses operate efficiently and scale without friction. We
+                    integrate IT solutions as part of a broader growth strategy, which is how Vertexial Solutions
+                    supports long-term performance.</p>
+                  <ul>
+                    <li>Streamlined systems that improve operational efficiency</li>
+                    <li>Integration of tools and platforms for smoother workflows</li>
+                    <li>Scalable infrastructure that supports business expansion</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 8 (FIXED) -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f8"
+                  aria-controls="f8">
+                  Can you improve my existing website and digital presence?
+                </button>
+              </h3>
+              <div id="f8" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Yes, we can enhance what you already have by refining performance, usability, and alignment with
+                    your goals. This approach ensures improvements without unnecessary changes, which is how Vertexial
+                    Solutions delivers practical results.</p>
+                  <ul>
+                    <li>Optimization of website speed, design, and user experience</li>
+                    <li>Enhancements to improve engagement and conversions</li>
+                    <li>Alignment with marketing strategies for better outcomes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 9 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f9"
+                  aria-controls="f9">
+                  What is your approach before starting a new project?
+                </button>
+              </h3>
+              <div id="f9" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>A clear understanding of your business helps shape the right direction. We begin with a structured
+                    evaluation to ensure every step moving forward is purposeful, which reflects how Vertexial Solutions
+                    works.</p>
+                  <ul>
+                    <li>Understanding your goals, audience, and current setup</li>
+                    <li>Reviewing existing digital assets and systems</li>
+                    <li>Creating a clear roadmap aligned with your priorities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 10 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f10"
+                  aria-controls="f10">
+                  How can I get started with your services?
+                </button>
+              </h3>
+              <div id="f10" class="accordion-collapse collapse" data-bs-parent="#faqL">
+                <div class="accordion-body">
+                  <p>Getting started is designed to be simple and collaborative. We begin with a conversation to
+                    understand your needs and recommend the right approach, which is how Vertexial Solutions ensures a
+                    smooth start.</p>
+                  <ul>
+                    <li>Initial consultation to understand your requirements</li>
+                    <li>Evaluation of opportunities across marketing, website, and IT</li>
+                    <li>Clear next steps tailored to your business goals</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faq-bg"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-3">
+          <div class="f-brand mb-3">
+            <img src="assets/img/logo/vertexial-solutions-white-logo.webp" alt="Vertexial Solutions Logo">
+          </div>
+          <div class="footer-social-media-sec">
+            <a href="#" target="_blank" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#" target="_blank" aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="#" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="f-link-custom-para">
+            <div class="f-col-title">Quick Links</div>
+            <p><a href="#" class="f-link">Home</a></p>
+            <p><a href="about-us.html" class="f-link">About Us</a></p>
+            <!-- <a href="#" class="f-link">Services</a> -->
+            <p><a href="#" class="f-link">Contact Us</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="f-link-custom-para">
+            <div class="f-col-title">Services</div>
+            <p><a href="#" class="f-link">Digital Marketing</a></p>
+            <p><a href="#" class="f-link">Website Design & Development</a></p>
+            <p><a href="#" class="f-link">IT Solutions</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="f-col-title">Contact Us</div>
+          <div class="footer-contact-us-icon-content-sec">
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <a href="#" target="_blank" class="f-link">
+                6905 Moss Rose Cv, Austin, TX 78750
+              </a>
+            </div>
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+15122965050" class="f-link">
+                (512) 296-5050
+              </a>
+            </div>
+
+            <div class="f-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@vertexialsolutions.com" class="f-link">
+                info@vertexialsolutions.com
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr class="f-divider">
+      <div class="home-copyright-custom-sec">
+        <span>Copyright © 2026 Vertexial Solutions. All rights reserved. Designed By <a
+            href="https://www.matrixbricks.com/" target="_blank">Matrix Bricks</a></span>
+        <div class="home-copyright-custom-pp-tac-sec">
+          <a href="#" class="f-link" style="display:inline;">Privacy Policy</a>
+          <a href="#" class="f-link" style="display:inline;">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade verti-solu-modal-form-sp-sec" id="popupForm" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">Enquiry form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <form>
+
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Enter Name">
+            </div>
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" placeholder="Enter Phone Number">
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select">
+                <option value="">Select Services</option>
+                <option>SEO</option>
+                <option>SEM</option>
+                <option>SMM</option>
+                <option>E-Commerce Development</option>
+                <option>Corporate Website</option>
+                <option>App Development</option>
+                <option>UI/UX Design</option>
+                <option>Artificial Intelligence</option>
+                <option>Chatbot</option>
+                <option>DevOps</option>
+                <option>Data Engineering</option>
+                <option>Cloud Solutions</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <textarea class="form-control" rows="3" placeholder="Enter Message"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn-v btn-v-pri">
+                Submit
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
